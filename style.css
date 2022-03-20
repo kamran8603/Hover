@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+#container{
+    text-align: center;
+    margin-top: 180px;
+
+}
+#btn{
+    border-radius: .2spx;
+    border-color: blue;
+    background-color: red;
+    color: aqua;
+    
+}
+#btn:hover{
+    background-color: blue;
+    transition: 0.8s;
+    border-radius: 5px;
+}
+#btn::before{
+    top: 0%;
+    border-radius: 0 0 50% 50%;
+}
+#btn::after{
+    height: 0%;
+}
+#ccontainer{
+    text-align: center;
+    margin-top: 10px;
+
+}
+#btn1{
+    background-color: blue;
+    border-radius: 4px;
+}
+#btn1:hover{
+background-color: tomato;
+}
